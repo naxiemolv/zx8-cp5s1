@@ -1,0 +1,120 @@
+4:191  2:182  Found UEFI Acpi 2.0 RSDP at 5E471000
+4:191  0:000  Saving ACPI tables from RSDP 5E471000 to EFI\CLOVER\ACPI\origin ...
+4:191  0:000   5E471000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+4:218  0:026    (Xsdt: 5E4710A8, Rsdt: 5E471028)
+4:218  0:000    5E4710A8: 'XSDT', 'A M I', Rev: 1, Len: 204 -> XSDT.aml
+4:241  0:022    5E471028: 'RSDT', 'A M I', Rev: 1, Len: 120 -> RSDT.aml
+4:263  0:021    Tables in Xsdt: 21
+4:263  0:000    0. 5E491B18: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+4:285  0:022        (Dsdt: 5E471200, Facs: 5EACBF00, XDsdt: 5E471200, XFacs: 0)
+4:285  0:000        5E471200: 'DSDT', 'A M I', Rev: 2, Len: 133397 -> DSDT.aml
+4:316  0:030        5EACBF00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+4:338  0:022    1. 5E491C30: 'APIC', 'A M I', Rev: 3, Len: 244 -> APIC.aml
+4:361  0:023    2. 5E491D28: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+4:393  0:031    3. 5E491D70: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+4:415  0:022    4. 5E491E10: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+4:439  0:023    5. 5E491E50: 'SSDT', 'A M I', Rev: 1, Len: 931 -> SSDT-0-A M I.aml
+4:460  0:021    6. 5E4921F8: 'SSDT', 'A M I', Rev: 1, Len: 6958 -> SSDT-1-A M I.aml
+4:483  0:022    7. 5E493D28: 'MSDM', 'A M I', Rev: 3, Len: 85 -> MSDM.aml
+4:505  0:022    8. 5E493D80: 'SSDT', 'A M I', Rev: 2, Len: 5278 -> SSDT-2-A M I.aml
+4:528  0:023    9. 5E495220: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+4:551  0:022    10. 5E495258: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+4:573  0:022    11. 5E4952A0: 'SSDT', 'A M I', Rev: 2, Len: 1650 -> SSDT-3-A M I.aml
+4:597  0:023    12. 5E495918: 'SSDT', 'A M I', Rev: 2, Len: 6062 -> SSDT-4-A M I.aml (Found hidden SSDT 7 pcs)
+4:620  0:023        * 5DD91018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1749  53 53 44 54 D5 06 00 00 02 FC 50 6D 52 65 66 00 Internal length = 1749 -> SSDT-x4_0-Cpu0Ist.aml
+4:642  0:021        * 5DD90018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x4_1-ApIst.aml
+4:665  0:023        * 5E3E9318: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 17 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x4_2-Cpu0Cst.aml
+4:688  0:023        * 5DD91A98: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x4_3-ApCst.aml
+4:711  0:022        * 5A950E98: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x4_4-Cpu0Hwp.aml
+4:733  0:021        * 5A950418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x4_5-ApHwp.aml
+4:756  0:022        * 5A94C698: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x4_6-HwpLvt.aml
+4:778  0:021  
+4:778  0:000    13. 5E4970C8: 'SSDT', 'A M I', Rev: 2, Len: 5727 -> SSDT-5-A M I.aml
+4:801  0:023    14. 5E498728: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.aml
+4:824  0:022    15. 5E498760: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.aml
+4:846  0:022    16. 5E4987B8: 'DMAR', 'A M I', Rev: 1, Len: 112 -> DMAR.aml
+4:868  0:021    17. 5E498828: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+4:890  0:022    18. 5E498860: 'TPM2', 'A M I', Rev: 3, Len: 52 -> TPM2.aml
+4:911  0:021    19. 5E498898: 'ASF!', 'A M I', Rev: 32, Len: 160 -> ASF!.aml
+4:933  0:022    20. 5E498938: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+4:956  0:022    Tables in Rsdt: 21
+4:956  0:000    0. 5E471178: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+4:980  0:023        (Dsdt: 5E471200, Facs: 5EACBEC0)
+4:980  0:000        5E471200: 'DSDT', 'A M I', Rev: 2, Len: 133397
+4:981  0:001        5EACBEC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+5:004  0:022    1. 5E491C30: 'APIC', 'A M I', Rev: 3, Len: 244
+5:004  0:000    2. 5E491D28: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:004  0:000    3. 5E491D70: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:004  0:000    4. 5E491E10: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:004  0:000    5. 5E491E50: 'SSDT', 'A M I', Rev: 1, Len: 931
+5:004  0:000    6. 5E4921F8: 'SSDT', 'A M I', Rev: 1, Len: 6958
+5:004  0:000    7. 5E493D28: 'MSDM', 'A M I', Rev: 3, Len: 85
+5:004  0:000    8. 5E493D80: 'SSDT', 'A M I', Rev: 2, Len: 5278
+5:004  0:000    9. 5E495220: 'HPET', 'A M I', Rev: 1, Len: 56
+5:004  0:000    10. 5E495258: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:004  0:000    11. 5E4952A0: 'SSDT', 'A M I', Rev: 2, Len: 1650
+5:004  0:000    12. 5E495918: 'SSDT', 'A M I', Rev: 2, Len: 6062
+5:004  0:000    13. 5E4970C8: 'SSDT', 'A M I', Rev: 2, Len: 5727
+5:004  0:000    14. 5E498728: 'DBGP', 'A M I', Rev: 1, Len: 52
+5:004  0:000    15. 5E498760: 'DBG2', 'A M I', Rev: 0, Len: 84
+5:004  0:000    16. 5E4987B8: 'DMAR', 'A M I', Rev: 1, Len: 112
+5:004  0:000    17. 5E498828: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:004  0:000    18. 5E498860: 'TPM2', 'A M I', Rev: 3, Len: 52
+5:004  0:000    19. 5E498898: 'ASF!', 'A M I', Rev: 32, Len: 160
+5:004  0:000    20. 5E498938: 'WSMT', 'A M I', Rev: 1, Len: 40
+5:004  0:000  Found UEFI Acpi 1.0 RSDP at 5E471000
+5:004  0:000  Printing ACPI tables from RSDP 5E471000 ...
+5:004  0:000   5E471000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:004  0:000    (Xsdt: 5E4710A8, Rsdt: 5E471028)
+5:004  0:000    5E4710A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+5:004  0:000    5E471028: 'RSDT', 'A M I', Rev: 1, Len: 120
+5:004  0:000    Tables in Xsdt: 21
+5:004  0:000    0. 5E491B18: 'FACP', 'A M I', Rev: 6, Len: 276
+5:004  0:000        (Dsdt: 5E471200, Facs: 5EACBF00, XDsdt: 5E471200, XFacs: 0)
+5:004  0:000        5E471200: 'DSDT', 'A M I', Rev: 2, Len: 133397
+5:005  0:001        5EACBF00: 'FACS', Ver: 2, Len: 64
+5:005  0:000    1. 5E491C30: 'APIC', 'A M I', Rev: 3, Len: 244
+5:005  0:000    2. 5E491D28: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:005  0:000    3. 5E491D70: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:005  0:000    4. 5E491E10: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:005  0:000    5. 5E491E50: 'SSDT', 'A M I', Rev: 1, Len: 931
+5:005  0:000    6. 5E4921F8: 'SSDT', 'A M I', Rev: 1, Len: 6958
+5:005  0:000    7. 5E493D28: 'MSDM', 'A M I', Rev: 3, Len: 85
+5:005  0:000    8. 5E493D80: 'SSDT', 'A M I', Rev: 2, Len: 5278
+5:005  0:000    9. 5E495220: 'HPET', 'A M I', Rev: 1, Len: 56
+5:005  0:000    10. 5E495258: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:005  0:000    11. 5E4952A0: 'SSDT', 'A M I', Rev: 2, Len: 1650
+5:005  0:000    12. 5E495918: 'SSDT', 'A M I', Rev: 2, Len: 6062
+5:005  0:000    13. 5E4970C8: 'SSDT', 'A M I', Rev: 2, Len: 5727
+5:005  0:000    14. 5E498728: 'DBGP', 'A M I', Rev: 1, Len: 52
+5:005  0:000    15. 5E498760: 'DBG2', 'A M I', Rev: 0, Len: 84
+5:005  0:000    16. 5E4987B8: 'DMAR', 'A M I', Rev: 1, Len: 112
+5:005  0:000    17. 5E498828: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:005  0:000    18. 5E498860: 'TPM2', 'A M I', Rev: 3, Len: 52
+5:005  0:000    19. 5E498898: 'ASF!', 'A M I', Rev: 32, Len: 160
+5:005  0:000    20. 5E498938: 'WSMT', 'A M I', Rev: 1, Len: 40
+5:005  0:000    Tables in Rsdt: 21
+5:005  0:000    0. 5E471178: 'FACP', 'A M I', Rev: 2, Len: 132
+5:005  0:000        (Dsdt: 5E471200, Facs: 5EACBEC0)
+5:005  0:000        5E471200: 'DSDT', 'A M I', Rev: 2, Len: 133397
+5:007  0:001        5EACBEC0: 'FACS', Ver: 0, Len: 64
+5:007  0:000    1. 5E491C30: 'APIC', 'A M I', Rev: 3, Len: 244
+5:007  0:000    2. 5E491D28: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:007  0:000    3. 5E491D70: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:007  0:000    4. 5E491E10: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:007  0:000    5. 5E491E50: 'SSDT', 'A M I', Rev: 1, Len: 931
+5:007  0:000    6. 5E4921F8: 'SSDT', 'A M I', Rev: 1, Len: 6958
+5:007  0:000    7. 5E493D28: 'MSDM', 'A M I', Rev: 3, Len: 85
+5:007  0:000    8. 5E493D80: 'SSDT', 'A M I', Rev: 2, Len: 5278
+5:007  0:000    9. 5E495220: 'HPET', 'A M I', Rev: 1, Len: 56
+5:007  0:000    10. 5E495258: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:007  0:000    11. 5E4952A0: 'SSDT', 'A M I', Rev: 2, Len: 1650
+5:007  0:000    12. 5E495918: 'SSDT', 'A M I', Rev: 2, Len: 6062
+5:007  0:000    13. 5E4970C8: 'SSDT', 'A M I', Rev: 2, Len: 5727
+5:007  0:000    14. 5E498728: 'DBGP', 'A M I', Rev: 1, Len: 52
+5:007  0:000    15. 5E498760: 'DBG2', 'A M I', Rev: 0, Len: 84
+5:007  0:000    16. 5E4987B8: 'DMAR', 'A M I', Rev: 1, Len: 112
+5:007  0:000    17. 5E498828: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:007  0:000    18. 5E498860: 'TPM2', 'A M I', Rev: 3, Len: 52
+5:007  0:000    19. 5E498898: 'ASF!', 'A M I', Rev: 32, Len: 160
+5:007  0:000    20. 5E498938: 'WSMT', 'A M I', Rev: 1, Len: 40
